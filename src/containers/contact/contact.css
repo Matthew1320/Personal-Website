@@ -1,0 +1,65 @@
+.my__contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+.my__contact-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my__contact-title h1 {
+    font-family: var(--font-family);
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    margin: 1rem 0;
+}
+
+.my__contact-title p {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--color-text);
+}
+
+.my__contact-links {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+}
+
+.my__contact-links div {
+    flex: 1;
+    max-width: 150px;
+    min-width: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my__contact-links_linkedin img {
+    width: 50%;
+    height: 50%;
+    margin-left: 1.5rem;
+}
+
+.my__contact-links_email img {
+    width: 70%;
+    height: 70%;
+    margin-left: 1rem;
+}
+
+@media screen and (max-width: 850px){
+    .my__contact-title p {
+        margin: 0.5rem 4rem;
+        justify-content: center;
+    }
+}
